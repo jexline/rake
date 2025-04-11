@@ -1,7 +1,5 @@
 Rake (Tool) – Pick Up Leaf Litter Quicker
 
-Picking up leaf litter with an iron rake
-
 I got so annoyed by leaf litter, I spent hours making this mod instead of just ignoring them like a normal person. Now you can craft rakes to scoop up leaf litter and dead bushes in big chunks. Iron does a 3x3 area, gold 5x5, diamond 7x7, and netherite clears a glorious 9x9. It’s overkill. You’re welcome.
 Features:
 
