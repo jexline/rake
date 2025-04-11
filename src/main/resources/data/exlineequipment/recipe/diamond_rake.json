@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": "minecraft:diamond",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "D D",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rake:diamond_rake"
+  }
+}

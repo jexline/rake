@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "rake",
+  "version": "${version}",
+
+  "name": "Rake",
+  "description": "A rake to pick up leaf-litter quicker.",
+  "authors": [
+    "Exline"
+  ],
+  "contact": {
+    "homepage": "https://exlinemods.com/",
+    "issues": "https://discord.gg/9UVGJGyqbv"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/rake/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.exline.rake.ModMain"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "1.21.5",
+    "java": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

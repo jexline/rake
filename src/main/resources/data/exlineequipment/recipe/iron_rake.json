@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": "minecraft:iron_ingot",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "N N",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rake:iron_rake"
+  }
+}

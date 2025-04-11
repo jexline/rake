@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "rake:iron_rake",
+      "rake:golden_rake",
+      "rake:diamond_rake"
+    ]
+  },
+  "criteria": {
+    "has_leaf_litter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leaf_litter"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rake:iron_rake"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_leaf_litter",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "minecraft:gold_ingot",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "G G",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rake:golden_rake"
+  }
+}

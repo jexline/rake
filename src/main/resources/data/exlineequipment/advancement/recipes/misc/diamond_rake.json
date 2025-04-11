@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "rake:netherite_rake"
+    ]
+  },
+  "criteria": {
+    "has_diamond_rake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rake:diamond_rake"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rake:diamond_rake"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_diamond_rake",
+      "has_the_recipe"
+    ]
+  ]
+}
